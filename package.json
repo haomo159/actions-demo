@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "display": "echo ${npm_package_name}"
+    "display": "echo ${npm_package_name}" && "echo ${npm_package_version}"
   },
   "repository": {
     "type": "git",
