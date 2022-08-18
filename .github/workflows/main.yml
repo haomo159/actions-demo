@@ -42,4 +42,5 @@ jobs:
 
       - name: Display NPM name and version
         run: |
+          echo "====== display npm name and npm version"
           npm run display
