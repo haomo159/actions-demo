@@ -37,5 +37,5 @@ jobs:
 
       - name: Display NPM name and version
         run: |
-          echo "${npm_package_name}"
-          echo "${npm_package_version}"
+          echo ${npm_package_name}
+          echo ${npm_package_version}
